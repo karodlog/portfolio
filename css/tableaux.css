@@ -1,0 +1,274 @@
+/* mise en forme premier tableau */
+.table1 td, .table1 th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 7px;
+}
+
+.table1{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table1 th{
+    background: #214567;
+    color: white;
+}
+.table1 td:hover{
+    background: #ff9b28b7;
+    color: white;
+}
+/* mise en forme deuxième tableau */
+.table1 td, .table1 th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 7px;
+}
+
+.table1{
+    border-collapse: collapse;
+    width: 100%;
+    /* légende du tableau au-dessus ou en-dessous */
+    caption-side: bottom;
+}
+
+.table1 th{
+    background: #214567;
+    color: white;
+}
+.table1 td:hover{
+    /* background: #334d6568; */
+    color: white;
+}
+
+.table2 th{
+    width: 25%;
+}
+.table2{
+    border-collapse: separate;
+    border-spacing: 5px 10px;
+}
+.table2 tr:nth-child(even){
+    background-color: rgb(215, 215, 215);
+}
+
+/* mise en forme troisième tableau */
+.table3{
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 0;
+
+}
+.table3 tr:nth-child(even){
+    background-color: rgb(215, 215, 215);
+}
+
+
+/* mise en forme quatrième tableau */
+
+
+.table4 td{
+    width: 20%;
+}
+.table4 col[span]{
+    background-color: #508ec863;
+}
+
+
+
+/* EXERCICE TABLEAU 1 */
+.table5 td, .table5 th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 7px;
+}
+.table5 td{
+    text-align: left;
+}
+
+.table5{
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    caption-side: bottom;
+}
+.table5 th:nth-child(1){
+    background: rgb(41, 166, 255);
+}
+.table5 th:nth-child(2){
+    background: rgb(0, 185, 56);
+}
+.table5 th:nth-child(3){
+    background: rgb(165, 94, 0);
+}
+.table5 th{
+    color: white;
+
+}
+.table5 tr:hover{
+    background: #333;
+    color: white;
+}
+caption{
+    margin-top: 10px;
+}
+.table5 td:nth-child(1){
+color: rgb(41, 166, 255);
+}
+.table5 td:nth-child(1):hover{
+color: white;
+}
+.table5 td:nth-child(2){
+color:  rgb(0, 185, 56);
+}
+.table5 td:nth-child(2):hover{
+color: white;
+}
+    
+.table5 td:nth-child(3){
+color: rgb(165, 94, 0);
+}
+.table5 td:nth-child(3):hover{
+color: white;
+}
+
+/* EXERCICE TABLEAU 1bis */
+
+
+.table6{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.table6 th, .table6 td{
+    padding: 7px;
+
+}
+.table6 tr:nth-child(2){
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.table6 tr:first-child th{
+    background-color: rgb(41, 166, 255);
+    color: white;
+}
+.table6 tr:nth-child(2) th{
+    background-color: rgb(0, 185, 56);
+    color: white;
+}
+.table6 tr:nth-child(3) th{
+    background-color: rgb(165, 94, 0);
+    color: white;
+}
+.table6 span{
+    font-weight: bold;
+}
+.table6 td:nth-child(even){
+    background-color: rgb(215, 215, 215);
+}
+.table6 td:hover{
+    color: white;
+    background: #333;
+}
+
+/* EXERCICE TABLEAU 2 */
+
+.table7{
+    background: #333;
+    color: rgb(41, 166, 255);
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    height: auto;
+}
+.table7 td{
+    padding: 10px;
+}
+.table7 th{
+    padding: 15px;
+    text-transform: uppercase;
+    color: white;
+    width: auto;
+}
+.table7 thead{
+    background: #555;
+    width: auto;
+    height: 60px;}
+.table7 tr:hover, .table7.vert:hover, .table7[colspan]:hover{
+    background: black;
+    /* color: white; */
+}
+.table7 tr:hover{
+    color: white;
+}
+.table7 .vert:hover{
+    color: white;
+}
+
+.table7 caption{
+    color: #333;
+    margin-bottom: 10px;
+}
+.table7 [colspan]{
+    color: orangered;
+}
+.table7.vert{
+    color: rgb(0, 185, 56);
+} 
+
+
+/* EXERCICE TABLEAU 3 */
+
+.table8{
+    width: 100%;
+    border-spacing: 8px 8px;
+}
+.table8 th, .table8 td{
+    padding: 15px 12px;
+    background-color: rgb(225, 225, 225);
+    text-align: center;
+
+}
+
+    
+#sessionTitre th{
+    background: rgb(98, 118, 142);
+    color: white;
+}
+.table8 tr:first-child th:first-child{
+    background: black;
+    color: white;
+}
+.table8 tr:first-child th:nth-child(2){
+    background: rgb(82, 82, 82);
+    color: white;
+}
+.table8 tr:nth-child(3) td:first-child{
+    background: rgb(32, 24, 178);
+    color: white;
+    text-align: right;
+}
+.table8 tr:nth-child(6) td:first-child{
+    background: rgb(38, 140, 65);
+    color: white;
+    text-align: right;
+}
+.table8 tr:nth-child(9) td:first-child{
+    background: rgb(140, 133, 38);
+    color: white;
+    text-align: right;
+}
+.table8 .bleu{
+    color: rgb(32, 24, 178);
+}
+.table8 .orange{
+    color: orangered;
+}
+.table8 .vert{
+    color: rgb(140, 133, 38);
+}
+.table8 .orange:hover, .bleu:hover, .vert:hover{
+    background-color: #333;
+    color: white;
+}

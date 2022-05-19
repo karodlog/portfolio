@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ceci est mon premier site Web créé lors de ma formation."
+    />
+    <title>Mon premier site Web / formulaires</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/formulaire.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <!-- header -->
+
+    <header>
+      <div>
+        <!-- image ajoutée via css -->
+      </div>
+      <!-- navigation -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="javascript.html">Javascript</a></li>
+          <li><a href="tableaux.html">Tableaux</a></li>
+          <li><a href="formulaire.html">Formulaire</a></li>
+          <li><a href="https://www.interface3namur.be/" target="_blank">Interface 3 Namur</a></li>
+        </ul>
+      </nav>
+      <!-- fin de navigation -->
+    </header>
+    <!-- fin du header -->
+
+    <!-- main -->
+    <main>
+    <section>
+      <h2>Les formulaires</h2>
+      <article>
+        <h3>La balise input</h3>
+        <input type="text">
+        <input type="color">
+        <input type="file">
+        <input type="checkbox">
+        <input type="date">
+        <input type="range">
+        <input type="password">
+      </article>
+
+
+      <article>
+        <h3>Mise en place d'un formulaire</h3>
+
+        <form action="" method="get">
+
+
+          <fieldset>
+            <legend>Connexion</legend>
+            <label for="user_name">Nom d'utilisateur :</label>
+            <input placeholder="votre nom" type="text" name="user_name" id="user_name">
+            <label for="user_pw">Mot de passe :</label>
+            <input placeholder="mot de passe" type="password" name="user_pw" id="user_pw">
+          </fieldset>
+
+          <div class="paperPlane1"><i class="fa-solid fa-paper-plane"></i></div>
+          <input class="button" type="submit" value="envoyer le formulaire">
+
+        </form>
+      </article>
+      <article>
+        <h3>Utilisation du fieldset</h3>
+        <form action="">
+          <fieldset>
+            <legend>Vos coordonnées</legend>
+            <label for="userFirstName">Prénom :</label>
+            <input type="text" placeholder="votre prénom" name="userFirstName" id="userFirstName">
+
+            <label for="userLastName">Nom :</label>
+            <input type="text" placeholder="votre nom"name="userLastName" id="userLastName">
+
+            <label for="userMail">Votre adresse mail :</label>
+            <input placeholder="email" type="mail" name="userMail" id="userMail">
+          </fieldset>
+          
+          
+          <fieldset>
+            <legend>Votre message</legend>
+            <label for="userMsg">Entrez votre message ici :</label>
+            <input type="textarea" name="userMsg" id="userMsg">
+          </fieldset>
+          <div class="paperPlane2"><i class="fa-solid fa-paper-plane"></i></div>
+
+          <input class="button"type="submit" value="envoyer le formulaire">
+
+        </form>
+      </article>
+
+
+
+    </section>
+  </main>
+    <!-- fin de main -->
+
+    <!-- footer -->
+    <footer>
+      <h2>Informations</h2>
+      <p class="siteWeb">Site Web réalisé dans le cadre de la formation</p>
+      <p><strong>Dev Fullstack JS / Alain Fustin /  <span>&copy; 2022</span></strong></p>
+    </footer>
+  </body>
+</html>

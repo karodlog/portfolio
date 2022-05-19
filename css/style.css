@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* mis en forme générale */
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(245, 245, 245);
+    color: #333;
+    font-size: 1em;
+    line-height: 1.25;
+}
+
+p{
+    text-align: justify;
+    margin-bottom: 1em;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* mise en place header et navigation */
+
+header{
+    color: #fff;
+    background: rgb(163, 203, 77, 0.9);
+}
+header div{
+    height: 25vh;
+    background-image: url("/img/banner-01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150% auto;
+    filter: contrast(110%) saturate(130%) brightness(0.7);
+    
+}
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+header nav li a{
+    margin: 0 30px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 3px;
+}
+header nav li a{
+    transition:.5s;
+    color: white;
+    border-bottom: 1px solid transparent;
+}
+header nav li a:hover{
+    border-bottom: 1px solid rgba(202, 227, 148, 0.9);
+    color: rgba(113, 150, 34, 0.9)
+}
+
+main{
+    max-width: 1024px;
+    background-color: #ebebeb3e;
+    margin: 0 auto;
+    padding: 24px 18px
+}
+main h1{
+    text-align: center;
+    color: #214567;
+    font-size: 2.6em;
+    margin-bottom: 24px;
+    border-bottom: 1px dashed #214567 ;
+    padding-bottom: 24px;
+    font-weight: 900;
+}
+main section h2{
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 18px;
+    color: white;
+    background: #214567;
+    padding: 7px 15px;
+}
+main section h3{
+    font-size: 1.6em;
+    margin-bottom: 18px;
+}
+main article{
+    padding: 18px;
+    margin-bottom: 18px;
+}
+
+/* figure du main */
+
+main figure{
+    margin-bottom: 12px;
+
+}
+main figcaption{
+    background: #383b3f;
+    color: rgb(242, 242, 242);
+    padding: 7px;
+    text-align: center;
+    font-size: calc(1em - 10%);
+    font-style: italic;
+}
+
+footer{
+    background: #222;
+    margin-top: 50px;
+    color: #f1f1f1;
+    padding: 40px;
+}
+footer h2{
+    text-align: center;
+    border-bottom: 1px solid rgb(67, 67, 67);
+    color: rgb(161, 161, 161);
+    margin-bottom: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+footer p{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 100;
+}
+.siteWeb{
+    font-size: 1.2em;
+    color: #555;
+    font-weight: 400;
+}
+footer span{
+    color: #666;
+}
+
+
+@media  screen and (min-width: 780px) {
+    #galerie figure{
+        width: 48.5%;
+    }
+    #galerie{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .flexing{
+        display: flex;
+    }
+}
