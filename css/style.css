@@ -38,7 +38,7 @@ header div{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150% auto;
-    filter: contrast(110%) saturate(130%) brightness(0.7);
+/*     filter: contrast(110%) saturate(130%) brightness(0.7); */
     
 }
 nav{
