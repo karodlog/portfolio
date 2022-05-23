@@ -34,7 +34,7 @@ header{
 }
 header div{
     height: 25vh;
-    background-image: url(img/banner-01.jpg);
+    background-image: url(../img/banner-01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150% auto;
